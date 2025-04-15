@@ -148,7 +148,7 @@ def process_results_tasks():
 # Main DAG with SubDAG/TaskGroup definition
 
 default_args = {
-    'owner': 'yamuna',
+    'owner': 'rohith',
     'depends_on_past': False,
     'start_date': days_ago(1), # We set it to one day ago to allow manual triggering.
     'retries': 1,
